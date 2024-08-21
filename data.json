@@ -1,0 +1,335 @@
+
+[
+  {
+      "id": 1,
+      "home_page_route_category_page_img": "/Shoes Logo.png",
+
+      "category_container": [
+          {
+            "id": 1,
+            "category_imgs": "/Kids Logo.jpg",
+            "product_name": "Kids Shoes",
+
+            "sub_category_container": [
+                {
+                  "id": 1,
+                  "category_imgs": "/track1.jpg"
+                },
+                {
+                  "id": 2,
+                  "category_imgs": "/track2.jpg"
+                },
+                {
+                   "id": 3,
+                  "category_imgs": "/track3.jpg"
+                },
+                {
+                   "id": 4,
+                  "category_imgs": "/track4.jpg"
+                }
+            ]
+          },
+          {
+            "id": 2,
+            "category_imgs": "/Women Logo.jpg",
+
+            "sub_category_container": [
+                {
+                  "id": 1,
+                  "category_imgs": "/track1.jpg"
+                },
+                {
+                  "id": 2,
+                  "category_imgs": "/track2.jpg"
+                },
+                {
+                   "id": 3,
+                  "category_imgs": "/track3.jpg"
+                },
+                {
+                   "id": 4,
+                  "category_imgs": "/track4.jpg"
+                }
+            ]
+          },
+          {
+             "id": 3,
+            "category_imgs": "/Men Logo.jpg",
+
+            "sub_category_container": [
+                {
+                  "id": 1,
+                  "category_imgs": "/track1.jpg"
+                },
+                {
+                  "id": 2,
+                  "category_imgs": "/track2.jpg"
+                },
+                {
+                   "id": 3,
+                  "category_imgs": "/track3.jpg"
+                },
+                {
+                   "id": 4,
+                  "category_imgs": "/track4.jpg"
+                }
+            ]
+          }
+      ],
+
+  
+
+      "product_container": [
+          {
+              "id": 1,
+              "size_main": [
+                  { 
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  }
+                 
+              ],
+              "imgs1": "/Kids Logo.jpg",
+              "imgs": "/Googleplex_HQ.jpg",
+              "product_name": "Black Night Track Pant",
+              "quantity": 1,
+              "single_product_category": "black",
+              "product_price": 1200,
+              "rating": 4.9,
+              "count": 200,
+              "product_price_deleted": 2000,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW"
+          },
+          {
+              "id": 2,
+              "size_main": [
+                  {
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  },
+                  {
+                      "id":3,
+                      "size": "L"
+                  }
+              ],
+              "imgs1": "/Women Logo.jpg",
+              "imgs": "/track1.jpg",
+              "product_name": "Sky Blue Track Pant",
+              "single_product_category": "sky",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+              "quantity": 1
+          },
+          {
+            "id": 3,
+            "size_main": [
+                {
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                },
+                {
+                    "id":3,
+                    "size": "L"
+                }
+            ],
+            "imgs1": "/Men Logo.jpg",
+            "imgs": "/track1.jpg",
+            "product_name": "Sky Blue Track Pant",
+            "single_product_category": "sky-blue",
+            "product_price": 899,
+            "rating": 4.4,
+            "count": 1000,
+            "product_price_deleted": 1230,
+            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+            "quantity": 1
+          }
+      ],
+      "product_category": "track-pants",
+      "product_heading": "Track Pants"
+  },
+  {
+      "id": 2,
+      "home_page_route_category_page_img": "/Clothes Logo.png",
+
+      "category_container": [
+        {
+          "id": 1,
+          "category_imgs": "/Kids Logo.jpg",
+
+          "sub_category_container":[
+                        {
+                            "id": 1,
+                            "sub_category_imgs": "/Kids cloth 1.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "sub_category_imgs": "/Kids cloth 2.jpg"
+                        },
+                        {
+                            "id": 3,
+                            "sub_category_imgs": "/Kids cloth 3.jpg"
+                        },
+                        {
+                            "id": 4,
+                            "sub_category_imgs": "/Kids cloth 4.jpeg"
+                        }
+          ]
+        },
+        {
+          "id": 2,
+          "category_imgs": "/Women Logo.jpg",
+
+          "sub_category_container":[
+            {
+                "id": 1,
+                "sub_category_imgs": "/Women cloth 1.jpg"
+            },
+            {
+                "id": 2,
+                "sub_category_imgs": "/Women cloth 2.jpg"
+            },
+            {
+                "id": 3,
+                "sub_category_imgs": "/Women cloth 3.jpg"
+            },
+            {
+                "id": 4,
+                "sub_category_imgs": "/Women cloth 4.jpeg"
+            }
+]
+        },
+        {
+           "id": 3,
+          "category_imgs": "/Men Logo.jpg",
+
+          "sub_category_container":[
+            {
+                "id": 1,
+                "sub_category_imgs": "/Men cloth 1.jpg"
+            },
+            {
+                "id": 2,
+                "sub_category_imgs": "/Men cloth 2.jpeg"
+            },
+            {
+                "id": 3,
+                "sub_category_imgs": "/Men cloth 3.jpg"
+            },
+            {
+                "id": 4,
+                "sub_category_imgs": "/Men cloth 4.jpeg"
+            }
+]
+        }
+    ],
+
+      "product_container": [
+          {
+              "id": 1,
+              "size_main": [
+                  {
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  },
+                  {
+                      "id":3,
+                      "size": "L"
+                  }
+              ],
+              "imgs1": "/Kids Logo.jpg",
+              "imgs": "/Kids cloth 1.jpg",
+              "product_name": "Multicolor Running Shoes",
+              "single_product_category": "multicolor-running-shoes",
+              "product_price": 996,
+              "rating": 4.1,
+              "count": 4500,
+              "product_price_deleted": 1999,
+              "quantity": 1,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW"
+          },
+          {
+              "id": 2,
+              "size_main": [
+                  {
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  },
+                  {
+                      "id":3,
+                      "size": "L"
+                  }
+              ],
+              "imgs1": "/Women Logo.jpg",
+              "imgs": "/Women cloth 1.jpg",
+              "product_name": "Blue-rex Running Shoes",
+              "single_product_category": "blue-rex",
+              "product_price": 899,
+              "rating": 4.3,
+              "count": 400,
+              "quantity": 1,
+              "product_price_deleted": 999,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW"
+          },
+          {
+            "id": 3,
+            "size_main": [
+                {
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                },
+                {
+                    "id":3,
+                    "size": "L"
+                }
+            ],
+            "imgs1": "/Men Logo.jpg",
+            "imgs": "/Men cloth 1.jpg",
+            "product_name": "Blue-rex Running Shoes",
+            "single_product_category": "blue-rex-running-shoes",
+            "product_price": 899,
+            "rating": 4.3,
+            "count": 400,
+            "quantity": 1,
+            "product_price_deleted": 999,
+            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW"
+          }
+      ],
+      "product_category": "sport-shoes",
+      "product_heading": "Sport Shoes"
+  }
+
+]
+
+
+
+
+
+
+   
