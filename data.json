@@ -75,7 +75,7 @@
                 }
             ],
             "imgs1": "/Men Logo.jpg",
-            "imgs": "/Kid cloth 3.jpg",
+            "imgs": "/Kids cloth 3.jpg",
             "product_name": "Men Products",
             "product_category_name": "Men",
             "single_product_category": "Kid3",
@@ -102,7 +102,9 @@
                     "size": "L"
                 }
             ],
+            "imgs1": "/food.jpg",
             "imgs": "/Kid cloth 4.jpeg",
+            "product_name": "Food Zone",
             "single_product_category": "Kid4",
             "product_price": 899,
             "rating": 4.4,
@@ -217,7 +219,9 @@
                   "size": "L"
               }
           ],
+          "imgs1": "/food.jpg",
           "imgs": "/Women cloth 4.jpg",
+          "product_name": "Food Zone",
           "single_product_category": "Women4",
           "product_price": 899,
           "rating": 4.4,
@@ -332,7 +336,9 @@
                 "size": "L"
             }
         ],
+        "imgs1": "/food.jpg",
         "imgs": "/Men cloth 4.jpeg",
+        "product_name": "Food Zone",
         "single_product_category": "Women4",
         "product_price": 899,
         "rating": 4.4,
