@@ -3,10 +3,28 @@
   {
       "id": 1,
       "home_page_route_category_page_img": "/Shoes Logo.png",
+      "product_category": "shoes",
+      "product_heading": "shoes1",
+      "product_category_name": "shoes2",
 
       "product_container": [
           {
               "id": 1,
+              "imgs1": "/Kids Logo.jpg",
+              "product_name": "Kids Products",
+
+             "product":[
+              {
+              "id": 1, 
+              "imgs": "/Kids cloth 1.jpg",
+              "quantity": 1,
+              "single_product_category": "Kid1",
+              "product_price": 1200,
+              "rating": 4.9,
+              "count": 200,
+              "product_price_deleted": 2000,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
               "size_main": [
                   { 
                       "id":1,
@@ -16,115 +34,21 @@
                       "id":2,
                       "size": "M"
                   }
-                 
-              ],
-              "imgs1": "/Kids Logo.jpg",
-              "imgs": "/Kids cloth 1.jpg",
-              "product_name": "Kids Products",
-              "quantity": 1,
-              "product_category_name": "Kids",
-              "single_product_category": "Kid1",
-              "product_price": 1200,
-              "rating": 4.9,
-              "count": 200,
-              "product_price_deleted": 2000,
-              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW"
-          },
-          {
-              "id": 2,
-              "size_main": [
-                  {
-                      "id":3,
-                      "size": "S"
-                  },
-                  {
-                      "id":4,
-                      "size": "M"
-                  },
-                  {
-                      "id":5,
-                      "size": "L"
-                  }
-              ],
-              "imgs1": "/Women Logo.jpg",
-              "imgs": "/Kid cloth 2.jpg",
-              "product_name": "Women Products",
-              "product_category_name": "Women",
-              "single_product_category": "Kid2",
-              "product_price": 899,
-              "rating": 4.4,
-              "count": 1000,
-              "product_price_deleted": 1230,
-              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-              "quantity": 1
-          },
-          {
-            "id": 3,
-            "size_main": [
-                {
-                    "id":1,
-                    "size": "S"
-                },
-                {
-                    "id":2,
-                    "size": "M"
-                },
-                {
-                    "id":3,
-                    "size": "L"
-                }
-            ],
-            "imgs1": "/Men Logo.jpg",
-            "imgs": "/Kids cloth 3.jpg",
-            "product_name": "Men Products",
-            "product_category_name": "Men",
-            "single_product_category": "Kid3",
-            "product_price": 899,
-            "rating": 4.4,
-            "count": 1000,
-            "product_price_deleted": 1230,
-            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-            "quantity": 1
-          },
-          {
-            "id": 4,
-            "size_main": [
-                {
-                    "id":1,
-                    "size": "S"
-                },
-                {
-                    "id":2,
-                    "size": "M"
-                },
-                {
-                    "id":3,
-                    "size": "L"
-                }
-            ],
-            "imgs1": "/food.jpg",
-            "imgs": "/Kid cloth 4.jpeg",
-            "product_name": "Food Zone",
-            "single_product_category": "Kid4",
-            "product_price": 899,
-            "rating": 4.4,
-            "count": 1000,
-            "product_price_deleted": 1230,
-            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-            "quantity": 1
-          }
-      ],
-      "product_category": "track-pants",
-      "product_heading": "Tracks Pants"
-  },
-  {
-      "id": 2,
-      "home_page_route_category_page_img": "/Clothes Logo.png",
+                 ]
+              },
+              {
+                "id": 2, 
+                "imgs": "/Kid cloth 2.jpg",
+                "quantity": 1,
+                "single_product_category": "Kid2",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
 
-      "product_container": [
-        {
-            "id": 1,
-            "size_main": [
+                
+              "size_main": [
                 { 
                     "id":1,
                     "size": "S"
@@ -133,115 +57,172 @@
                     "id":2,
                     "size": "M"
                 }
-               
-            ],
-            "imgs1": "/Kids Logo.jpg",
-            "imgs": "/Women cloth 1.jpg",
-            "product_name": "Kids Products",
-            "quantity": 1,
-            "product_category_name": "Kids",
-            "single_product_category": "Women1",
-            "product_price": 1200,
-            "rating": 4.9,
-            "count": 200,
-            "product_price_deleted": 2000,
-            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW"
-        },
-        {
-            "id": 2,
-            "size_main": [
-                {
+               ]
+              },
+              {
+                "id": 3, 
+                "imgs": "/Kids cloth 3.jpg",
+                "quantity": 1,
+                "single_product_category": "Kid3",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+                
+              "size_main": [
+                { 
                     "id":1,
                     "size": "S"
                 },
                 {
                     "id":2,
                     "size": "M"
+                }
+               ]
+              },
+              {
+                "id": 4, 
+                "imgs": "/Kid cloth 4.jpeg",
+                "quantity": 1,
+                "single_product_category": "Kid4",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+                
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
                 },
                 {
-                    "id":3,
-                    "size": "L"
+                    "id":2,
+                    "size": "M"
                 }
-            ],
-            "imgs1": "/Women Logo.jpg",
-            "imgs": "/Women cloth 2.jpg",
-            "product_name": "Women Products",
-            "product_category_name": "Women",
-            "single_product_category": "Women2",
+               ]
+              }
+              ]
+          },
+
+          {
+              "id": 2,
+              "imgs1": "/Women Logo.jpg",
+              "product_name": "Women Products",
+
+             "product":[
+              {
+              "id":1,
+              "imgs": "/Women cloth 1.jpg",
+              "quantity": 1,
+              "single_product_category": "Women1",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+              },
+              {
+                "id":2,
+                "imgs": "/Women cloth 2.jpg",
+                "quantity": 1,
+                "single_product_category": "Women2",
+                "product_price": 899,
+                "rating": 4.4,
+                "count": 1000,
+                "product_price_deleted": 1230,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+  
+                "size_main": [
+                  { 
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  }
+                 ] 
+              },
+              {
+                    "id":3,
+                    "imgs": "/Women cloth 3.jpg",
+                    "quantity": 1,
+                    "single_product_category": "Women3",
+                    "product_price": 899,
+                    "rating": 4.4,
+                    "count": 1000,
+                    "product_price_deleted": 1230,
+                    "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+      
+                    "size_main": [
+                      { 
+                          "id":1,
+                          "size": "S"
+                      },
+                      {
+                          "id":2,
+                          "size": "M"
+                      }
+                     ] 
+              },
+              {
+                        "id":4,
+                        "imgs": "/Women cloth 4.jpg",
+                        "quantity": 1,
+                        "single_product_category": "Women4",
+                        "product_price": 899,
+                        "rating": 4.4,
+                        "count": 1000,
+                        "product_price_deleted": 1230,
+                        "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+          
+                        "size_main": [
+                          { 
+                              "id":1,
+                              "size": "S"
+                          },
+                          {
+                              "id":2,
+                              "size": "M"
+                          }
+                         ] 
+              }
+              ]
+          },
+
+          {
+            "id": 3,
+            "imgs1": "/Men Logo.jpg",
+            "product_name": "Men Products",
+
+           "product":[
+            {
+            "id":1,
+            "imgs": "/Men cloth 1.jpg",
+            "quantity": 1,
+            "single_product_category": "Men1",
             "product_price": 899,
             "rating": 4.4,
             "count": 1000,
             "product_price_deleted": 1230,
-            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-            "quantity": 1
-        },
-        {
-          "id": 3,
-          "size_main": [
-              {
-                  "id":1,
-                  "size": "S"
-              },
-              {
-                  "id":2,
-                  "size": "M"
-              },
-              {
-                  "id":3,
-                  "size": "L"
-              }
-          ],
-          "imgs1": "/Men Logo.jpg",
-          "imgs": "/Women cloth 3.jpg",
-          "product_name": "Men Products",
-          "product_category_name": "Men",
-          "single_product_category": "Women3",
-          "product_price": 899,
-          "rating": 4.4,
-          "count": 1000,
-          "product_price_deleted": 1230,
-          "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-          "quantity": 1
-        },
-        {
-          "id": 4,
-          "size_main": [
-              {
-                  "id":1,
-                  "size": "S"
-              },
-              {
-                  "id":2,
-                  "size": "M"
-              },
-              {
-                  "id":3,
-                  "size": "L"
-              }
-          ],
-          "imgs1": "/food.jpg",
-          "imgs": "/Women cloth 4.jpg",
-          "product_name": "Food Zone",
-          "single_product_category": "Women4",
-          "product_price": 899,
-          "rating": 4.4,
-          "count": 1000,
-          "product_price_deleted": 1230,
-          "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-          "quantity": 1
-        }
-      ],
-      "product_category": "sport-shoes",
-      "product_heading": "Sport Shoes"
-  },
-  {
-    "id": 3,
-    "home_page_route_category_page_img": "/Googleplex_HQ.jpg",
+            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
 
-    "product_container": [
-      {
-          "id": 1,
-          "size_main": [
+            "size_main": [
               { 
                   "id":1,
                   "size": "S"
@@ -250,106 +231,979 @@
                   "id":2,
                   "size": "M"
               }
-             
-          ],
-          "imgs1": "/Kids Logo.jpg",
-          "imgs": "/Men cloth 1.jpg",
-          "product_name": "Kids Products",
-          "quantity": 1,
-          "product_category_name": "Kids",
-          "single_product_category": "Men1",
-          "product_price": 1200,
-          "rating": 4.9,
-          "count": 200,
-          "product_price_deleted": 2000,
-          "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW"
-      },
-      {
-          "id": 2,
-          "size_main": [
-              {
+             ] 
+            },
+            {
+              "id":2,
+              "imgs": "/Men cloth 2.jpeg",
+              "quantity": 1,
+              "single_product_category": "Men2",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+            },
+            {
+                  "id":3,
+                  "imgs": "/Men cloth 3.jpg",
+                  "quantity": 1,
+                  "single_product_category": "Men3",
+                  "product_price": 899,
+                  "rating": 4.4,
+                  "count": 1000,
+                  "product_price_deleted": 1230,
+                  "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+    
+                  "size_main": [
+                    { 
+                        "id":1,
+                        "size": "S"
+                    },
+                    {
+                        "id":2,
+                        "size": "M"
+                    }
+                   ] 
+            },
+            {
+                      "id":4,
+                      "imgs": "/Men cloth 4.jpeg",
+                      "quantity": 1,
+                      "single_product_category": "Men4",
+                      "product_price": 899,
+                      "rating": 4.4,
+                      "count": 1000,
+                      "product_price_deleted": 1230,
+                      "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+        
+                      "size_main": [
+                        { 
+                            "id":1,
+                            "size": "S"
+                        },
+                        {
+                            "id":2,
+                            "size": "M"
+                        }
+                       ] 
+            }
+            ]
+          },
+
+          {
+            "id": 4,
+            "imgs1": "/Googleplex_HQ.jpg",
+            "product_name": "Products",
+
+           "product":[
+            {
+            "id":1,
+            "imgs": "/track1.jpg",
+            "quantity": 1,
+            "single_product_category": "Track1",
+            "product_price": 899,
+            "rating": 4.4,
+            "count": 1000,
+            "product_price_deleted": 1230,
+            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+            "size_main": [
+              { 
                   "id":1,
                   "size": "S"
               },
               {
                   "id":2,
                   "size": "M"
+              }
+             ] 
+            },
+            {
+              "id":2,
+              "imgs": "/track2.jpg",
+              "quantity": 1,
+              "single_product_category": "Track2",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+            },
+            {
+                  "id":3,
+                  "imgs": "/track3.jpg",
+                  "quantity": 1,
+                  "single_product_category": "Track3",
+                  "product_price": 899,
+                  "rating": 4.4,
+                  "count": 1000,
+                  "product_price_deleted": 1230,
+                  "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+    
+                  "size_main": [
+                    { 
+                        "id":1,
+                        "size": "S"
+                    },
+                    {
+                        "id":2,
+                        "size": "M"
+                    }
+                   ] 
+            },
+            {
+                      "id":4,
+                      "imgs": "/track4.jpg",
+                      "quantity": 1,
+                      "single_product_category": "Track4",
+                      "product_price": 899,
+                      "rating": 4.4,
+                      "count": 1000,
+                      "product_price_deleted": 1230,
+                      "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+        
+                      "size_main": [
+                        { 
+                            "id":1,
+                            "size": "S"
+                        },
+                        {
+                            "id":2,
+                            "size": "M"
+                        }
+                       ] 
+            }
+            ]
+          }
+
+        ]
+  },
+
+  {
+      "id": 2,
+      "home_page_route_category_page_img": "/Clothes Logo.png",
+      "product_category": "clothes",
+      "product_heading": "clothes1",
+      "product_category_name": "clothes2",
+
+    "product_container": [
+          {
+              "id": 1,
+              "imgs1": "/Kids Logo.jpg",
+              "product_name": "Kids Products",
+
+             "product":[
+              {
+              "id": 1, 
+              "imgs": "/Kids cloth 1.jpg",
+              "quantity": 1,
+              "single_product_category": "Kid1",
+              "product_price": 1200,
+              "rating": 4.9,
+              "count": 200,
+              "product_price_deleted": 2000,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+              "size_main": [
+                  { 
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  }
+                 ]
               },
               {
-                  "id":3,
-                  "size": "L"
+                "id": 2, 
+                "imgs": "/Kid cloth 2.jpg",
+                "quantity": 1,
+                "single_product_category": "Kid2",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+                
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ]
+              },
+              {
+                "id": 3, 
+                "imgs": "/Kids cloth 3.jpg",
+                "quantity": 1,
+                "single_product_category": "Kid3",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+                
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ]
+              },
+              {
+                "id": 4, 
+                "imgs": "/Kid cloth 4.jpeg",
+                "quantity": 1,
+                "single_product_category": "Kid4",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+                
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ]
               }
-          ],
-          "imgs1": "/Women Logo.jpg",
-          "imgs": "/Men cloth 2.jpeg",
-          "product_name": "Women Products",
-          "product_category_name": "Women",
-          "single_product_category": "Men2",
-          "product_price": 899,
-          "rating": 4.4,
-          "count": 1000,
-          "product_price_deleted": 1230,
-          "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-          "quantity": 1
-      },
-      {
-        "id": 3,
-        "size_main": [
-            {
-                "id":1,
-                "size": "S"
-            },
-            {
+              ]
+          },
+
+          {
+              "id": 2,
+              "imgs1": "/Women Logo.jpg",
+              "product_name": "Women Products",
+
+             "product":[
+              {
+              "id":1,
+              "imgs": "/Women cloth 1.jpg",
+              "quantity": 1,
+              "single_product_category": "Women1",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+              },
+              {
                 "id":2,
-                "size": "M"
+                "imgs": "/Women cloth 2.jpg",
+                "quantity": 1,
+                "single_product_category": "Women2",
+                "product_price": 899,
+                "rating": 4.4,
+                "count": 1000,
+                "product_price_deleted": 1230,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+  
+                "size_main": [
+                  { 
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  }
+                 ] 
+              },
+              {
+                    "id":3,
+                    "imgs": "/Women cloth 3.jpg",
+                    "quantity": 1,
+                    "single_product_category": "Women3",
+                    "product_price": 899,
+                    "rating": 4.4,
+                    "count": 1000,
+                    "product_price_deleted": 1230,
+                    "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+      
+                    "size_main": [
+                      { 
+                          "id":1,
+                          "size": "S"
+                      },
+                      {
+                          "id":2,
+                          "size": "M"
+                      }
+                     ] 
+              },
+              {
+                        "id":4,
+                        "imgs": "/Women cloth 4.jpg",
+                        "quantity": 1,
+                        "single_product_category": "Women4",
+                        "product_price": 899,
+                        "rating": 4.4,
+                        "count": 1000,
+                        "product_price_deleted": 1230,
+                        "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+          
+                        "size_main": [
+                          { 
+                              "id":1,
+                              "size": "S"
+                          },
+                          {
+                              "id":2,
+                              "size": "M"
+                          }
+                         ] 
+              }
+              ]
+          },
+
+          {
+            "id": 3,
+            "imgs1": "/Men Logo.jpg",
+            "product_name": "Men Products",
+
+           "product":[
+            {
+            "id":1,
+            "imgs": "/Men cloth 1.jpg",
+            "quantity": 1,
+            "single_product_category": "Men1",
+            "product_price": 899,
+            "rating": 4.4,
+            "count": 1000,
+            "product_price_deleted": 1230,
+            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+            "size_main": [
+              { 
+                  "id":1,
+                  "size": "S"
+              },
+              {
+                  "id":2,
+                  "size": "M"
+              }
+             ] 
             },
             {
-                "id":3,
-                "size": "L"
+              "id":2,
+              "imgs": "/Men cloth 2.jpeg",
+              "quantity": 1,
+              "single_product_category": "Men2",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+            },
+            {
+                  "id":3,
+                  "imgs": "/Men cloth 3.jpg",
+                  "quantity": 1,
+                  "single_product_category": "Men3",
+                  "product_price": 899,
+                  "rating": 4.4,
+                  "count": 1000,
+                  "product_price_deleted": 1230,
+                  "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+    
+                  "size_main": [
+                    { 
+                        "id":1,
+                        "size": "S"
+                    },
+                    {
+                        "id":2,
+                        "size": "M"
+                    }
+                   ] 
+            },
+            {
+                      "id":4,
+                      "imgs": "/Men cloth 4.jpeg",
+                      "quantity": 1,
+                      "single_product_category": "Men4",
+                      "product_price": 899,
+                      "rating": 4.4,
+                      "count": 1000,
+                      "product_price_deleted": 1230,
+                      "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+        
+                      "size_main": [
+                        { 
+                            "id":1,
+                            "size": "S"
+                        },
+                        {
+                            "id":2,
+                            "size": "M"
+                        }
+                       ] 
             }
-        ],
-        "imgs1": "/Men Logo.jpg",
-        "imgs": "/Men cloth 3.jpg",
-        "product_name": "Men Products",
-        "product_category_name": "Men",
-        "single_product_category": "Men3",
-        "product_price": 899,
-        "rating": 4.4,
-        "count": 1000,
-        "product_price_deleted": 1230,
-        "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-        "quantity": 1
-      },
-      {
-        "id": 4,
-        "size_main": [
+            ]
+          },
+
+          {
+            "id": 4,
+            "imgs1": "/Googleplex_HQ.jpg",
+            "product_name": "Products",
+
+           "product":[
             {
-                "id":1,
-                "size": "S"
+            "id":1,
+            "imgs": "/track1.jpg",
+            "quantity": 1,
+            "single_product_category": "Track1",
+            "product_price": 899,
+            "rating": 4.4,
+            "count": 1000,
+            "product_price_deleted": 1230,
+            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+            "size_main": [
+              { 
+                  "id":1,
+                  "size": "S"
+              },
+              {
+                  "id":2,
+                  "size": "M"
+              }
+             ] 
             },
             {
+              "id":2,
+              "imgs": "/track2.jpg",
+              "quantity": 1,
+              "single_product_category": "Track2",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+            },
+            {
+                  "id":3,
+                  "imgs": "/track3.jpg",
+                  "quantity": 1,
+                  "single_product_category": "Track3",
+                  "product_price": 899,
+                  "rating": 4.4,
+                  "count": 1000,
+                  "product_price_deleted": 1230,
+                  "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+    
+                  "size_main": [
+                    { 
+                        "id":1,
+                        "size": "S"
+                    },
+                    {
+                        "id":2,
+                        "size": "M"
+                    }
+                   ] 
+            },
+            {
+                      "id":4,
+                      "imgs": "/track4.jpg",
+                      "quantity": 1,
+                      "single_product_category": "Track4",
+                      "product_price": 899,
+                      "rating": 4.4,
+                      "count": 1000,
+                      "product_price_deleted": 1230,
+                      "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+        
+                      "size_main": [
+                        { 
+                            "id":1,
+                            "size": "S"
+                        },
+                        {
+                            "id":2,
+                            "size": "M"
+                        }
+                       ] 
+            }
+            ]
+          }
+
+        ]  
+  },
+
+  {
+    "id": 3,
+    "home_page_route_category_page_img": "/Googleplex_HQ.jpg",
+    "product_category": "Googleplex_HQ",
+    "product_heading": "Googleplex_HQ1",
+    "product_category_name": "Googleplex_HQ2",
+
+"product_container": [
+          {
+              "id": 1,
+              "imgs1": "/Kids Logo.jpg",
+              "product_name": "Kids Products",
+
+             "product":[
+              {
+              "id": 1, 
+              "imgs": "/Kids cloth 1.jpg",
+              "quantity": 1,
+              "single_product_category": "Kid1",
+              "product_price": 1200,
+              "rating": 4.9,
+              "count": 200,
+              "product_price_deleted": 2000,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+              "size_main": [
+                  { 
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  }
+                 ]
+              },
+              {
+                "id": 2, 
+                "imgs": "/Kid cloth 2.jpg",
+                "quantity": 1,
+                "single_product_category": "Kid2",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+                
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ]
+              },
+              {
+                "id": 3, 
+                "imgs": "/Kids cloth 3.jpg",
+                "quantity": 1,
+                "single_product_category": "Kid3",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+                
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ]
+              },
+              {
+                "id": 4, 
+                "imgs": "/Kid cloth 4.jpeg",
+                "quantity": 1,
+                "single_product_category": "Kid4",
+                "product_price": 1200,
+                "rating": 4.9,
+                "count": 200,
+                "product_price_deleted": 2000,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
+
+                
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ]
+              }
+              ]
+          },
+
+          {
+              "id": 2,
+              "imgs1": "/Women Logo.jpg",
+              "product_name": "Women Products",
+
+             "product":[
+              {
+              "id":1,
+              "imgs": "/Women cloth 1.jpg",
+              "quantity": 1,
+              "single_product_category": "Women1",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+              },
+              {
                 "id":2,
-                "size": "M"
+                "imgs": "/Women cloth 2.jpg",
+                "quantity": 1,
+                "single_product_category": "Women2",
+                "product_price": 899,
+                "rating": 4.4,
+                "count": 1000,
+                "product_price_deleted": 1230,
+                "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+  
+                "size_main": [
+                  { 
+                      "id":1,
+                      "size": "S"
+                  },
+                  {
+                      "id":2,
+                      "size": "M"
+                  }
+                 ] 
+              },
+              {
+                    "id":3,
+                    "imgs": "/Women cloth 3.jpg",
+                    "quantity": 1,
+                    "single_product_category": "Women3",
+                    "product_price": 899,
+                    "rating": 4.4,
+                    "count": 1000,
+                    "product_price_deleted": 1230,
+                    "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+      
+                    "size_main": [
+                      { 
+                          "id":1,
+                          "size": "S"
+                      },
+                      {
+                          "id":2,
+                          "size": "M"
+                      }
+                     ] 
+              },
+              {
+                        "id":4,
+                        "imgs": "/Women cloth 4.jpg",
+                        "quantity": 1,
+                        "single_product_category": "Women4",
+                        "product_price": 899,
+                        "rating": 4.4,
+                        "count": 1000,
+                        "product_price_deleted": 1230,
+                        "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+          
+                        "size_main": [
+                          { 
+                              "id":1,
+                              "size": "S"
+                          },
+                          {
+                              "id":2,
+                              "size": "M"
+                          }
+                         ] 
+              }
+              ]
+          },
+
+          {
+            "id": 3,
+            "imgs1": "/Men Logo.jpg",
+            "product_name": "Men Products",
+
+           "product":[
+            {
+            "id":1,
+            "imgs": "/Men cloth 1.jpg",
+            "quantity": 1,
+            "single_product_category": "Men1",
+            "product_price": 899,
+            "rating": 4.4,
+            "count": 1000,
+            "product_price_deleted": 1230,
+            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+            "size_main": [
+              { 
+                  "id":1,
+                  "size": "S"
+              },
+              {
+                  "id":2,
+                  "size": "M"
+              }
+             ] 
             },
             {
-                "id":3,
-                "size": "L"
+              "id":2,
+              "imgs": "/Men cloth 2.jpeg",
+              "quantity": 1,
+              "single_product_category": "Men2",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+            },
+            {
+                  "id":3,
+                  "imgs": "/Men cloth 3.jpg",
+                  "quantity": 1,
+                  "single_product_category": "Men3",
+                  "product_price": 899,
+                  "rating": 4.4,
+                  "count": 1000,
+                  "product_price_deleted": 1230,
+                  "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+    
+                  "size_main": [
+                    { 
+                        "id":1,
+                        "size": "S"
+                    },
+                    {
+                        "id":2,
+                        "size": "M"
+                    }
+                   ] 
+            },
+            {
+                      "id":4,
+                      "imgs": "/Men cloth 4.jpeg",
+                      "quantity": 1,
+                      "single_product_category": "Men4",
+                      "product_price": 899,
+                      "rating": 4.4,
+                      "count": 1000,
+                      "product_price_deleted": 1230,
+                      "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+        
+                      "size_main": [
+                        { 
+                            "id":1,
+                            "size": "S"
+                        },
+                        {
+                            "id":2,
+                            "size": "M"
+                        }
+                       ] 
             }
-        ],
-        "imgs1": "/food.jpg",
-        "imgs": "/Men cloth 4.jpeg",
-        "product_name": "Food Zone",
-        "single_product_category": "Women4",
-        "product_price": 899,
-        "rating": 4.4,
-        "count": 1000,
-        "product_price_deleted": 1230,
-        "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",
-        "quantity": 1
-      }
-    ],
-    "product_category": "sport-tracks",
-    "product_heading": "Sport Shoes"
+            ]
+          },
+
+          {
+            "id": 4,
+            "imgs1": "/Googleplex_HQ.jpg",
+            "product_name": "Products",
+
+           "product":[
+            {
+            "id":1,
+            "imgs": "/track1.jpg",
+            "quantity": 1,
+            "single_product_category": "Track1",
+            "product_price": 899,
+            "rating": 4.4,
+            "count": 1000,
+            "product_price_deleted": 1230,
+            "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+            "size_main": [
+              { 
+                  "id":1,
+                  "size": "S"
+              },
+              {
+                  "id":2,
+                  "size": "M"
+              }
+             ] 
+            },
+            {
+              "id":2,
+              "imgs": "/track2.jpg",
+              "quantity": 1,
+              "single_product_category": "Track2",
+              "product_price": 899,
+              "rating": 4.4,
+              "count": 1000,
+              "product_price_deleted": 1230,
+              "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+
+              "size_main": [
+                { 
+                    "id":1,
+                    "size": "S"
+                },
+                {
+                    "id":2,
+                    "size": "M"
+                }
+               ] 
+            },
+            {
+                  "id":3,
+                  "imgs": "/track3.jpg",
+                  "quantity": 1,
+                  "single_product_category": "Track3",
+                  "product_price": 899,
+                  "rating": 4.4,
+                  "count": 1000,
+                  "product_price_deleted": 1230,
+                  "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+    
+                  "size_main": [
+                    { 
+                        "id":1,
+                        "size": "S"
+                    },
+                    {
+                        "id":2,
+                        "size": "M"
+                    }
+                   ] 
+            },
+            {
+                      "id":4,
+                      "imgs": "/track4.jpg",
+                      "quantity": 1,
+                      "single_product_category": "Track4",
+                      "product_price": 899,
+                      "rating": 4.4,
+                      "count": 1000,
+                      "product_price_deleted": 1230,
+                      "product_description": "Care Instructions:\n\n- Gentle machine wash or hand wash in cold water.\n- Use mild detergent.\n- Air dry or tumble dry on low heat.\n- Iron on low temperature if needed.\n\nVHX - A FTNESS VIEW",,
+        
+                      "size_main": [
+                        { 
+                            "id":1,
+                            "size": "S"
+                        },
+                        {
+                            "id":2,
+                            "size": "M"
+                        }
+                       ] 
+            }
+            ]
+          }
+
+        ]
   }
 ]
 

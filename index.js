@@ -324,10 +324,15 @@ app.use(express.static(path.join(__dirname, 'Assets')));
             item.product_container = item.product_container.map(product => {
                 return {
                     ...product,
-                    imgs: 'http://' + req.get('host') + product.imgs,
                     imgs1: 'http://' + req.get('host') + product.imgs1,
                 };
             });
+            item.product_container.product = item.product_container.product.map(product1 => {
+              return {
+                  ...product1,
+                  imgs: 'http://' + req.get('host') + product1.imgs,
+              };
+          });
             return item;
         });  
         res.json({ success: true, data: updatedData });
