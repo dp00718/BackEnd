@@ -320,21 +320,28 @@ app.use(express.static(path.join(__dirname, 'Assets')));
         const updatedData = jsonData.map(item => {
             if (item.home_page_route_category_page_img) {
                 item.home_page_route_category_page_img = 'http://' + req.get('host') + item.home_page_route_category_page_img;
-            }
+            } 
+
             item.product_container = item.product_container.map(product => {
-                return {
-                    ...product,
-                    imgs1: 'http://' + req.get('host') + product.imgs1,
-                };
-            });
-            product.product = product.product.map(product1 => {
-              return {
-                  ...product1,
-                  imgs: 'http://' + req.get('host') + product1.imgs,
-              };
-          });
-            return item;
+              if (product.img1) {
+                product.imgs1 = 'http://' + req.get('host') + product.imgs1;
+              }
+
+              if (product.product) {
+                product.product = product.product.map(a => {
+                  if (a.imgs) {
+                    a.imgs = 'http://' + req.get('host') + a.imgs;
+                  }
+                  return a;
+                });
+              }
+          
+            return product;
         });  
+        
+        return item;
+      });
+
         res.json({ success: true, data: updatedData });
     });
   });
