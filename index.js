@@ -327,7 +327,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
                     imgs1: 'http://' + req.get('host') + product.imgs1,
                 };
             });
-            item.product_container.product = item.product_container.product.map(product1 => {
+            product.product = product.product.map(product1 => {
               return {
                   ...product1,
                   imgs: 'http://' + req.get('host') + product1.imgs,
