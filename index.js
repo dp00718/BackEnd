@@ -323,7 +323,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
             } 
 
             item.product_container = item.product_container.map(product => {
-              if (product.img1) {
+              if (product.imgs1) {
                 product.imgs1 = 'http://' + req.get('host') + product.imgs1;
               }
 
@@ -338,7 +338,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
           
             return product;
         });  
-        
+
         return item;
       });
 
