@@ -2,7 +2,7 @@
 [
   {
       "id": 1,
-      "home_page_route_category_page_img": "/Shoes Logo.png",
+      "home_page_route_category_page_img": "/Kids Logo.jpg",
       "product_category": "shoes",
       "product_heading": "shoes1",
       "product_category_name": "shoes2",
@@ -10,7 +10,6 @@
       "product_container": [
           {
               "id": 1,
-              "imgs1": "/Kids Logo.jpg",
               "product_name": "Kids Products",
              "product":[
               {
@@ -1083,7 +1082,7 @@
           ]
         }
 
-      ]
+      ] 
   }
 ]
 
