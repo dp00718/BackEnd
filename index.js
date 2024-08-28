@@ -327,13 +327,15 @@ app.use(express.static(path.join(__dirname, 'Assets')));
                 product.imgs = 'http://' + req.get('host') + product.imgs;
               }
 
+
+            if (product.side_imgs){
             product.side_imgs = product.side_imgs.map(product1 => {
               if (product1.in_imgs) {
                 product1.in_imgs = 'http://' + req.get('host') + product1.in_imgs;
               }
               return product1
             })  
-          
+           };
             return product;
         });  
 
