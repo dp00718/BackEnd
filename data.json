@@ -26,7 +26,19 @@
                   {
                       "size": "M"
                   }
-                 ]
+                 ],
+
+              "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
               },
               {
                 "id": 2, 
@@ -45,7 +57,19 @@
                 {
                     "size": "M"
                 }
-               ]
+               ],
+
+               "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
               },
               {
                 "id": 3, 
@@ -64,7 +88,19 @@
                 {
                     "size": "M"
                 }
-               ]
+               ],
+
+               "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
               },
               {
                 "id": 4, 
@@ -83,7 +119,19 @@
                 {
                     "size": "M"
                 }
-               ]
+               ],
+
+               "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
               }
               
         ]
@@ -116,7 +164,19 @@
               {
                   "size": "M"
               }
-             ] 
+             ],
+
+             "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
             },
             {
               "id":2,
@@ -136,7 +196,19 @@
                 {
                     "size": "M"
                 }
-               ] 
+               ],
+               
+               "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
             },
             {
                   "id":3,
@@ -156,7 +228,19 @@
                     {
                         "size": "M"
                     }
-                   ] 
+                   ],
+
+                   "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
             },
             {
                       "id":4,
@@ -176,7 +260,19 @@
                         {
                             "size": "M"
                         }
-                       ] 
+                       ],
+
+                       "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
             }      
 
       ] 
@@ -209,7 +305,19 @@
             {
                 "size": "M"
             }
-           ] 
+           ],
+           
+           "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
           },
           {
             "id":2,
@@ -229,7 +337,19 @@
               {
                   "size": "M"
               }
-             ] 
+             ],
+             
+             "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
           },
           {
                 "id":3,
@@ -249,7 +369,19 @@
                   {
                       "size": "M"
                   }
-                 ] 
+                 ],
+                 
+                 "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
           },
           {
                     "id":4,
@@ -269,7 +401,19 @@
                       {
                           "size": "M"
                       }
-                     ] 
+                     ],
+
+                     "side_imgs": [
+                {
+                    "side_imgs1": "Clothes Logo.png"
+                },
+                {
+                    "side_imgs2": "food.jpg"
+                },
+                {
+                    "side_imgs3": "Shoes Logo.png"
+                }
+              ]
           }
 
       ] 
