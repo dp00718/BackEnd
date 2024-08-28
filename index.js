@@ -323,17 +323,8 @@ app.use(express.static(path.join(__dirname, 'Assets')));
             } 
 
             item.product_container = item.product_container.map(product => {
-              if (product.imgs1) {
-                product.imgs1 = 'http://' + req.get('host') + product.imgs1;
-              }
-
-              if (product.product) {
-                product.product = product.product.map(a => {
-                  if (a.imgs) {
-                    a.imgs = 'http://' + req.get('host') + a.imgs;
-                  }
-                  return a;
-                });
+              if (product.imgs) {
+                product.imgs = 'http://' + req.get('host') + product.imgs;
               }
           
             return product;
