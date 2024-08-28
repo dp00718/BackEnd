@@ -333,9 +333,9 @@ app.use(express.static(path.join(__dirname, 'Assets')));
               if (product1.in_imgs) {
                 product1.in_imgs = 'http://' + req.get('host') + product1.in_imgs;
               }
-              return product1
-            })  
-           };
+              return product1;
+            }); 
+             }
             return product;
         });  
 
