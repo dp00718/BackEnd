@@ -371,7 +371,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
           return res.status(401).json({ error: 'Invalid token' });
         }
   
-        const user = await User1.findOne({ emailaddress: decoded.email });
+        const user = await User1.findOne({ emailaddress });
         if (!user) {
           return res.status(404).json({ error: 'User not found' });
         }
