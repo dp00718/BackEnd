@@ -247,7 +247,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
   app.post('/registration',async(req,res) =>{ 
     const{firstname,lastname,emailaddress,password} =req.body
 
-    const exist=await User1.findOne({email: decoded.email})
+    const exist=await User1.findOne({emailaddress})
     if (exist){
         return res.json({success:false,error:'Email Id Is Already Registered'})
     }
