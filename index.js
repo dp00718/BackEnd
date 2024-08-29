@@ -247,7 +247,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
   app.post('/registration',async(req,res) =>{ 
     const{firstname,lastname,emailaddress,password} =req.body
 
-    const exist=await User1.findOne({emailaddress})
+    const exist=await User1.findOne({email: decoded.email})
     if (exist){
         return res.json({success:false,error:'Email Id Is Already Registered'})
     }
@@ -371,7 +371,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
           return res.status(401).json({ error: 'Invalid token' });
         }
   
-        const user = await User1.findOne({ emailaddress });
+        const user = await User1.findOne({ email: decoded.email });
         if (!user) {
           return res.status(404).json({ error: 'User not found' });
         }
