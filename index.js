@@ -46,7 +46,7 @@ const RegistrationSchema = new mongoose.Schema({
         type: String,
         require: true,
         },
-        emailaddress: {
+        email: {
         type: String,
         require: true,
         },
@@ -247,7 +247,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
   app.post('/registration',async(req,res) =>{ 
     const{firstname,lastname,emailaddress,password} =req.body
 
-    const exist=await User1.findOne({emailaddress})
+    const exist=await User1.findOne({email:emailaddress})
     if (exist){
         return res.json({success:false,error:'Email Id Is Already Registered'})
     }
@@ -255,7 +255,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
     const hashedPassword = await bcrypt.hash(password, 10);
 
     const data = await User1.create({
-    firstname,lastname,emailaddress,password: hashedPassword 
+    firstname,lastname,email:emailaddress,password: hashedPassword 
     }) 
 
     const transporter = nodemailer.createTransport({
@@ -286,7 +286,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
 
     // console.log(Username,Password) 
 
-    const exist = await User1.findOne({ emailaddress:Username})
+    const exist = await User1.findOne({ email:Username})
     if(!exist){
         return res.json({success:false,error:"crendentials is wrong"})
     }
@@ -296,12 +296,12 @@ app.use(express.static(path.join(__dirname, 'Assets')));
         return res.json({ success:false, error: 'Invalid  password' });
       }
 
-      const token = jwt.sign({ Username }, 'secret-key', { expiresIn: '24h' });
+      const token = jwt.sign({Username}, 'secret-key', { expiresIn: '24h' });
   
       const accountInfo={
         firstname:exist.firstname,
         lastname:exist.lastname,
-        emailaddress:exist.emailaddress
+        emailaddress:exist.email
       }
       // console.log(exist.Username)
 
@@ -371,7 +371,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
           return res.status(401).json({ error: 'Invalid token' });
         }
   
-        const user = await User1.findOne({ email: decoded.email });
+        const user = await User1.findOne({ email: decoded.username });
         if (!user) {
           return res.status(404).json({ error: 'User not found' });
         }
@@ -379,7 +379,7 @@ app.use(express.static(path.join(__dirname, 'Assets')));
         const accountInfo = {
           firstname: user.firstname,
           lastname: user.lastname,
-          emailaddress: user.emailaddress
+          emailaddress: user.email
         
         };
   
